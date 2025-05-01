@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0 0 0;
+  gap: 10px;
+}
+
+span {
+  background-color: #EEE;
+  padding: 10px;
+  border: 1px solid #2196f3;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #008cff;
+  position: relative;
+}
+
+span::after {
+  content: ":";
+  position: absolute;
+  right: -10px;
+  font-weight: 20px;
+}
+.seconds::after {
+  content: "";
+
+}

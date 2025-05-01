@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+}
+
+.tabs {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tabs li {
+  padding: 10px;
+  background-color: #f6f6f6;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.tabs li:hover,
+.tabs li.active {
+  background-color: #DDD;
+}
+.content {
+  background-color: #DDD;
+  border: 1px solid white;
+  border-top: none;
+}
+.content > div {
+  padding: 20px;
+  display: none;
+}
+.content .active {
+  display: block;
+}

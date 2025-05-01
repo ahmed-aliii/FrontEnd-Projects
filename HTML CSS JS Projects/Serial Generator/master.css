@@ -1,0 +1,19 @@
+div {
+  text-align: center;
+  font-weight: bold;
+}
+.serial {
+  background-color: #c96161e6;
+  margin: 20px auto;
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+}
+.generator {
+  background-color: #009688;
+  margin: 11px auto;
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+}
